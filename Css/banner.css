@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
+
+* {
+    font-family: 'DM Sans', sans-serif;
+}
+
+.bannerbg {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(to right, #20e6ab, #b1ee3a);
+    background-repeat: no-repeat;
+    background-attachment: fixed !important;
+    background-position: center;
+    margin-top: 0vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bannericon {
+    width: 70%;
+    height: auto;
+    position: relative;
+    animation-name: example;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes example {
+    0% {
+        left: 0px;
+        top: -10px;
+        /* width: 70%; */
+    }
+
+    50% {
+        left: 0px;
+        top: 10px;
+        /* width: 75%; */
+    }
+
+    100% {
+        left: 0px;
+        top: -10px;
+        /* width: 70%; */
+    }
+}
+
+.bannerColumn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bannerContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.bannerContent div {
+    font-weight: bold;
+    font-size: 50px;
+    text-align: center;
+    line-height: 50px;
+}
+
+.bannerContent p {
+    font-size: 22px;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.buttonBox {
+    position: relative;
+    width: 150px;
+    height: 50px;
+    border-radius: 8px;
+    overflow: hidden;
+
+}
+
+.contactBtn {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: #000;
+    color: #fff;
+    height: 50px;
+    width: 150px;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: 600;
+
+}
+
+.shadowBtn {
+    position: absolute;
+    top: 0px;
+    left: -15px;
+    height: 70px;
+    width: 1px;
+    border: #b2ee3a;
+    outline: none;
+    font-weight: 600;
+    background-color: #b2ee3a;
+    transition: width 1s ease;
+    opacity: 1;
+}
+
+.btntext {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: #00000000;
+    color: #fff;
+    height: 50px;
+    width: 150px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.buttonBox:hover .shadowBtn {
+    width: 200px !important;
+}

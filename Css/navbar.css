@@ -1,0 +1,40 @@
+.navbar-expand-lg .navbar-collapse {
+    justify-content: right;
+}
+
+.navbar {
+    background-position: fixed !important;
+    background-attachment: fixed !important;
+    background-color: #00000000 !important;
+    height: 10vh;
+}
+
+
+.navbar.scrolled {
+    background-color: #000000d2 !important;
+}
+
+.navbar-brand {
+    color: #fff !important;
+}
+
+.nav-link {
+    color: #fff !important;
+    font-size: 20px;
+    font-weight: 500;
+    text-shadow: 1px 1px 1px #ccc;
+}
+
+.nav-item {
+    padding: 0px 5px;
+}
+
+.navbar-nav {
+    padding-right: 20px;
+}
+
+.logoimg {
+    height: auto;
+    width: 150px;
+    margin-top: 30px;
+}
